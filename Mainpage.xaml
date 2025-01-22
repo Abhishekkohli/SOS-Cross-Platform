@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:EmergencyApp"
+             x:Class="EmergencyApp.MainPage">
+
+    <StackLayout Padding="20">
+        <Label Text="Emergency SOS" FontSize="24" HorizontalOptions="Center" />
+
+        <Entry x:Name="MessageEntry" Placeholder="Enter emergency message" />
+        <Button Text="Send SOS"
+                BackgroundColor="Red"
+                TextColor="White"
+                Clicked="OnSendSOS" />
+    </StackLayout>
+
+</ContentPage>
