@@ -1,0 +1,5 @@
+<ItemGroup>
+  <PackageReference Include="Plugin.Messaging" Version="6.0.1" />
+  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  <PackageReference Include="Xamarin.Essentials" Version="1.7.3" />
+</ItemGroup>
